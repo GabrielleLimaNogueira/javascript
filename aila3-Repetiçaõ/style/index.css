@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+
+    margin: 0%;
+}
+
+body{
+
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkauPXAjVxrn2AAyaxXQc-MAbdBjSbKgyogw&s);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+main{
+width: 60%;
+margin: 0px auto;
+background-color: aliceblue;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+
+}
+
+
+#produtos{
+
+width: 80%;
+margin-bottom: 20px;
+box-shadow: 10px 10px 10px  rgb(224, 210, 210);
+display: flex;
+gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+.produtos{
+ 
+width: 200px;
+background-color: rgb(228, 128, 214);
+padding: 20px;
+
+
+}
+
+.produtos img{
+
+width: 100%; 
+
+}
